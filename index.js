@@ -26,35 +26,109 @@ const leaderBoard = [
 ]
 
 const questions = [
-    {
-        question: "What is my full name ",
-        options: [
-            "Bilal Mansuri",
-            "Mohammad Bilal",
-            "Md Bilal Mansuri",
-            "Bilal Mohammad Mansuri"
-        ],
-        correctAnswer: "md bilal mansuri"
-    },
-    {
-        question: "Which brand's phone do I use? ",
-        options: [
-            "OnePlus",
-            "Samsung",
-            "Oppo",
-            "Sony"],
-        correctAnswer: "oneplus"
-    },
-    {
-        question: "Where I am from? ",
-        options: [
-            "Indore",
-            "Delhi",
-            "Mumbai",
-            "Noida"],
-        correctAnswer: "indore"
-    }
+  {//1
+    question:"What is my full name ",
+    options:[
+      "Bilal Mansuri",
+      "Mohammad Bilal",
+      "Md Bilal Mansuri",
+      "Bilal Mohammad Mansuri"
+    ],
+    correctAnswer:"md bilal mansuri"
+  },
+  {//2
+    question:"Which brand's phone do I use? ",
+    options:[
+      "OnePlus",
+      "Samsung",
+      "Oppo",
+      "Sony"],
+    correctAnswer:"oneplus"
+  },
+  {//3
+    question:"Where I am from? ",
+  options:[
+    "Indore",
+    "Delhi",
+    "Mumbai",
+    "Noida"],
+   correctAnswer:"indore"
+  },
+  {
+    question:"Do I play Valorant?",
+  options:[
+    "Yes",
+    "No"
+  ],
+   correctAnswer:"Yes"
+  },
+  {//4
+    question:"Which one is my favorite Valorant agent ?",
+  options:[
+    "Reyna",
+    "Sage",
+    "Sova",
+    "Yoru"
+  ],
+   correctAnswer:"reyna"
+  }
+  ,
+  {//5
+    question:"From where do I buy clothes ?",
+  options:[
+    "Flipkart",
+    "Ajio",
+    "Myntra",
+    "Amazon"
+  ],
+   correctAnswer:"myntra"
+  },
+  {//6
+    question:"What is my height ?",
+  options:[
+    "5'10",
+    "5'11",
+    "6'1",
+    "6'0"
+  ],
+   correctAnswer:"6'0"
+  },
+  {//7
+    question:"What brand laptop do I use ?",
+  options:[
+    "Lenovo",
+    "Dell",
+    "HP",
+    "Apple"
+  ],
+   correctAnswer:"lenovo"
+  },
+  {//8
+    question:"Nike or Adidas, What I like more ?",
+  options:[
+    "Adidas",
+    "Nike",
+  ],
+   correctAnswer:"adidas"
+  },
+  {//9
+    question:"Do I like Harry Potter Movies",
+  options:[
+    "Yes",
+    "No",
+  ],
+   correctAnswer:"yes"
+  },
+  {//10
+    question:"Do I know how to swim ?",
+  options:[
+    "Yes",
+    "No",
+  ],
+   correctAnswer:"no"
+  }
 ]
+
 function viewLeaderBoard() {
     log("");
     log("LeaderBoard")
